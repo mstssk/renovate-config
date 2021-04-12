@@ -8,5 +8,5 @@
   "timezone": "Asia/Tokyo",
   "stabilityDays": 3,
   "prCreation": "not-pending",
-  "labels": ["dependencies"]
+  "labels": ["renovate", "dependencies"]
 }
