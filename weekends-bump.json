@@ -6,7 +6,6 @@
     "groupName": "all minor deps"
   },
   "timezone": "Asia/Tokyo",
-  "stabilityDays": 3,
   "prCreation": "not-pending",
   "labels": ["renovate", "dependencies"]
 }
