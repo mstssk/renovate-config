@@ -1,0 +1,11 @@
+{
+  "name": "renovate-config",
+  "description": "Shared Presets of Renovate.",
+  "repository": "github:mstssk/renovate-config",
+  "license": "MIT",
+  "author": "mstssk",
+  "scripts": {
+    "fmt": "npx prettier --write .",
+    "lint": "npx prettier --check ."
+  }
+}
