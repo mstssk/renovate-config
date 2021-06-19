@@ -4,7 +4,7 @@
     "config:base",
     ":timezone(Asia/Tokyo)",
     ":prNotPending",
-    "schedule:weekends",
+    "schedule:quarterly",
     "github>lacolaco/renovate-config:automerge-types",
     "github>viibar/renovate-config:groupWebpack",
     "github>hatena/renovate-config:groupJest",
