@@ -4,7 +4,7 @@
     "config:base",
     ":timezone(Asia/Tokyo)",
     ":prNotPending",
-    "schedule:quarterly",
+    "schedule:daily",
     "github>lacolaco/renovate-config:automerge-types",
     "github>viibar/renovate-config:groupWebpack",
     "github>hatena/renovate-config:groupJest",
@@ -12,5 +12,6 @@
   ],
   "rangeStrategy": "bump",
   "postUpdateOptions": ["npmDedupe"],
-  "labels": ["renovate", "dependencies"]
+  "labels": ["renovate", "dependencies"],
+  "packageRules": [{ "matchUpdateTypes": "major" }]
 }
