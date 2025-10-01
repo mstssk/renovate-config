@@ -11,6 +11,7 @@
     "github>hatena/renovate-config:groupLinters"
   ],
   "rangeStrategy": "bump",
+  "minimumReleaseAge": "10 days",
   "postUpdateOptions": ["npmDedupe"],
   "labels": ["renovate", "dependencies"]
 }
